@@ -6,7 +6,7 @@
 ![stars](https://img.shields.io/github/stars/LintaoPeng/U-shape_Transformer)
 ![license](https://img.shields.io/github/license/LintaoPeng/U-shape_Transformer)
 
-This repository is the official PyTorch implementation of U-shape Transformer  for Underwater Image Enhancement. ([arxiv](https://arxiv.org/abs/2111.11843), [Dataset](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html), [pretrained models](https://github.com/JingyunLiang/SwinIR/releases), [visual results](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html)). U-shape Transformer achieves **state-of-the-art performance** in underwater image enhancement task.
+This repository is the official PyTorch implementation of U-shape Transformer  for Underwater Image Enhancement. ([arxiv](https://arxiv.org/abs/2111.11843), [Dataset](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html), [video demo](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html), [visual results](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html)). U-shape Transformer achieves **state-of-the-art performance** in underwater image enhancement task.
 
 </br>
 
@@ -14,9 +14,11 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 :rocket:  :rocket:  :rocket: **News**:
 
-- 2021/11/24  We release the official code of U-shape Transformer
+- 2021/11/25 We released our pretrained model, You can download the pretrain models in [here](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9. 
 
-- 2021/11/23  We release LSUI dataset, We released a large-scale underwater image (LSUI) dataset including 5004 image pairs, which involve richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg). The password is 1iya.
+- 2021/11/24  We released the official code of U-shape Transformer
+
+- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset including 5004 image pairs, which involve richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg). The password is 1iya.
 
   ![avatar](./figs/data.png)
 
@@ -54,4 +56,52 @@ Environmental requirements:
 - OpenCV 4.5.3 or a newer version
 
 - Jupyter Notebook
+
+Or you can install from the requirements.txt using
+```angular2html
+pip install -r requirements.txt
+```
+
+## Testing
+For your convience, we provide some example datasets (~20Mb) in `./test`.  You can download the pretrain models in [here](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9. 
+
+After downloading, extract the pretrained model into the project folder and replace the `./saved_models` folder, and then run `test.ipynb`. The code will use the pretrained model to automatically process all the images in the `./test/input` folder and output the results to the `./test/output` folder. In addition, the output result will automatically calculate the PSNR value with the reference image.
+
+## Results
+We achieved state-of-the-art performance on underwater image enhancement task. Detailed results can be found in the [paper](https://arxiv.org/abs/2111.11843) or our [project page](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html)
+
+
+<details>
+<summary>Full-Reference Evaluation (click me)</summary>
+<p align="center">
+  <img width="450" src="figs/fulltab.png">
+  <img width="900" src="figs/fullfig.png">
+</p>
+</details>
+
+<details>
+<summary>Non-reference Evaluation </summary>
+<p align="center">
+  <img width="900" src="figs/nontab.png">
+  <img width="900" src="figs/nonfig.png">
+</p>
+</details>
+
+
+## Citation
+    @misc{peng2021ushape,
+      title={U-shape Transformer for Underwater Image Enhancement}, 
+      author={Lintao Peng and Chunli Zhu and Liheng Bian},
+      year={2021},
+      eprint={2111.11843},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+      }
+
+
+
+## License and Acknowledgement
+This project is released under the MIT license. The codes are designed based on [pix2pix](https://github.com/eriklindernoren/PyTorch-GAN). We also refer to codes in [UCTransNet](https://github.com/McGregorWwww/UCTransNet) and [TransBTS](https://github.com/Wenxuan-1119/TransBTS). Please also follow their licenses. Thanks for their awesome works.
+
+
 
