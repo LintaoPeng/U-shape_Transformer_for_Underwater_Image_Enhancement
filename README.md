@@ -18,7 +18,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 - 2021/11/24  We released the official code of U-shape Transformer
 
-- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset including 5004 image pairs, which involve richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg). The password is 1iya.
+- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset including 5004 image pairs, which involve richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg). Please contact `bian@bit.edu.cn` to obtain the download password, and leave your name and organization, we will reply within 48 hours.
 
   ![avatar](./figs/data.png)
 
