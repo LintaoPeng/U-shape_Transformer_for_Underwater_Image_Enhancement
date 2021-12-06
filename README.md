@@ -63,7 +63,8 @@ pip install -r requirements.txt
 ```
 
 ## Testing
-For your convience, we provide some example datasets (~20Mb) in `./test`.  You can download the pretrain models in [here](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9. 
+For your convience, we provide some example datasets (~20Mb) in `./test`.  You can download the pretrain models in [BaiduYun](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9 or in [Google Drive](https://drive.google.com/file/d/19a_kDJTT5S96kzwQntEMhSxAPYw4xY2P/view?usp=sharing
+). 
 
 After downloading, extract the pretrained model into the project folder and replace the `./saved_models` folder, and then run `test.ipynb`. The code will use the pretrained model to automatically process all the images in the `./test/input` folder and output the results to the `./test/output` folder. In addition, the output result will automatically calculate the PSNR value with the reference image.
 
