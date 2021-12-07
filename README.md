@@ -42,7 +42,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 ### Training
 
-If you need to train our U-shape transformer from scratch, you need to download our lsui dataset from [LSUI](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg) with the password 1iya, and then randomly select 4500 picture pairs as the training set to replace the data folder, and the remaining 504 as the test set to replace the test folder.
+If you need to train our U-shape transformer from scratch, you need to download our dataset from [LSUI](https://pan.baidu.com/s/1rtHIwEmVp9BZDYJ_kb5Wfg)(Please contact bian@bit.edu.cn to obtain the download password, and leave your name and organization, we will reply within 48 hours.), and then randomly select 4500 picture pairs as the training set to replace the data folder, and the remaining 504 as the test set to replace the test folder.
 
 Then, run the train.ipynb file with Jupiter notebook, and the trained model weight file will be automatically saved in saved_ Models folder. As described in the paper, we recommend you use L2 loss for the first 600 epochs and L1 loss for the last 200 epochs.
 
