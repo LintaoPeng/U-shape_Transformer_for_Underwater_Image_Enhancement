@@ -14,7 +14,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 :rocket:  :rocket:  :rocket: **News**:
 
-- 2022/8/19 Our paper was accepted by ECCV2022 workshop!
+
 - 2021/11/25 We released our pretrained model, You can download the pretrain models in [BaiduYun](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9 or in [Google Drive](https://drive.google.com/file/d/19a_kDJTT5S96kzwQntEMhSxAPYw4xY2P/view?usp=sharing
 ).  
 
