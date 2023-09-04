@@ -20,7 +20,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 - 2021/11/24  We released the official code of U-shape Transformer
 
-- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset, which involve richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(lsui).
+- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset, which involves richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(lsui).
 
   ![avatar](./figs/data.png)
 
@@ -66,10 +66,14 @@ pip install -r requirements.txt
 ```
 
 ## Testing
-For your convience, we provide some example datasets (~20Mb) in `./test`.  You can download the pretrain models in [BaiduYun](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9 or in [Google Drive](https://drive.google.com/file/d/19a_kDJTT5S96kzwQntEMhSxAPYw4xY2P/view?usp=sharing
+For your convenience, we provide some example datasets (~20Mb) in `./test`.  You can download the pretrain models in [BaiduYun](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9 or in [Google Drive](https://drive.google.com/file/d/19a_kDJTT5S96kzwQntEMhSxAPYw4xY2P/view?usp=sharing
 ). 
 
 After downloading, extract the pretrained model into the project folder and replace the `./saved_models` folder, and then run `test.ipynb`. The code will use the pretrained model to automatically process all the images in the `./test/input` folder and output the results to the `./test/output` folder. In addition, the output result will automatically calculate the PSNR value with the reference image.
+
+## Dataset
+The LSUI is a large-scale underwater image (LSUI) dataset, which involves richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [BaiduYun](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(password is lsui) or[GoogleDrive](https://drive.google.com/file/d/10gD4s12uJxCHcuFdX9Khkv37zzBwNFbL/view?usp=sharing). If you want to use the LSUI dataset, please cite our [[paper\]](https://ieeexplore.ieee.org/abstract/document/10129222)
+
 
 ## Results
 We achieved state-of-the-art performance on underwater image enhancement task. Detailed results can be found in the [paper](https://arxiv.org/abs/2111.11843) or our [project page](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html)
@@ -93,14 +97,15 @@ We achieved state-of-the-art performance on underwater image enhancement task. D
 
 
 ## Citation
-    @misc{peng2021ushape,
-      title={U-shape Transformer for Underwater Image Enhancement}, 
-      author={Lintao Peng and Chunli Zhu and Liheng Bian},
-      year={2021},
-      eprint={2111.11843},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-      }
+    @ARTICLE{10129222,
+      author={Peng, Lintao and Zhu, Chunli and Bian, Liheng},
+      journal={IEEE Transactions on Image Processing}, 
+      title={U-Shape Transformer for Underwater Image Enhancement}, 
+      year={2023},
+      volume={32},
+      number={},
+      pages={3066-3079},
+      doi={10.1109/TIP.2023.3276332}}
 
 
 
