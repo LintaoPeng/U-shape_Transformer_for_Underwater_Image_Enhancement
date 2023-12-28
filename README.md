@@ -20,7 +20,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 - 2021/11/24  We released the official code of U-shape Transformer
 
-- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset, which involves richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(lsui).
+- 2021/11/23  We released LSUI dataset, We released a large-scale underwater image (LSUI) dataset, which involves richer underwater scenes (lighting conditions, water types and target categories) and better visual quality reference images than the existing ones. You can download it from [[here\]](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(lsui) or [GoogleDrive](https://drive.google.com/file/d/10gD4s12uJxCHcuFdX9Khkv37zzBwNFbL/view?usp=sharing).
 
   ![avatar](./figs/data.png)
 
@@ -44,7 +44,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 ### Training
 
-If you need to train our U-shape transformer from scratch, you need to download our dataset from [BaiduYun](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(password is lsui) or [GoogleDrive](https://drive.google.com/file/d/10gD4s12uJxCHcuFdX9Khkv37zzBwNFbL/view?usp=sharing), and then randomly select 3879 picture pairs as the training set to replace the data folder, and the remaining 400 as the test set to replace the test folder.
+If you need to train our U-shape transformer from scratch, you need to download our dataset from [BaiduYun](https://pan.baidu.com/s/1dqB_k6agorQBVVqCda0vjA)(password is lsui) or [GoogleDrive](https://drive.google.com/file/d/10gD4s12uJxCHcuFdX9Khkv37zzBwNFbL/view?usp=sharing), and then randomly select 3879 picture pairs as the training set to replace the data folder, and the remaining 400 as the test set to replace the test folder. The dataset divided by the author can be downloaded from [BaiduYun](https://pan.baidu.com/s/1xjc8hHc6IkUwg3cuPTogxg )(password is lsui).
 
 Then, run the `train.ipynb` file with Jupiter notebook, and the trained model weight file will be automatically saved in saved_ Models folder. As described in the paper, we recommend you use L2 loss for the first 600 epochs and L1 loss for the last 200 epochs.
 
