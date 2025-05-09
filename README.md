@@ -14,7 +14,7 @@ This repository is the official PyTorch implementation of U-shape Transformer  f
 
 :rocket:  :rocket:  :rocket: **News**:
 
--2025/5/9  Our work SS-UIE has been accepted by AAAI-2025, code and models are released in [SS-UIE](https://github.com/LintaoPeng/SS-UIE). 🚀
+- 2025/5/9  Our work SS-UIE has been accepted by AAAI-2025, code and models are released in [SS-UIE](https://github.com/LintaoPeng/SS-UIE). 🎉🎉🎉
 
 - 2021/11/25 We released our pretrained model, You can download the pretrain models in [BaiduYun](https://pan.baidu.com/s/1nxmlu_Qs8YNz0NqshNS_ZA) with the password tdg9 or in [Google Drive](https://drive.google.com/file/d/19a_kDJTT5S96kzwQntEMhSxAPYw4xY2P/view?usp=sharing
 ).  
